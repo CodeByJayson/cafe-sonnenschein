@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Öffnungszeiten – Café Sonnenschein</title>
+  <style>
+    html, body {
+      height: 100%;
+      margin: 0;
+      display: flex;
+      flex-direction: column;
+    }
+
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      background-color: #f4f1ee;
+      color: #333;
+    }
+
+    header {
+      background-color: #6d4c41;
+      color: white;
+      padding: 0.6rem 1rem 1rem 1rem;
+      text-align: center;
+    }
+
+    nav {
+      text-align: center;
+      padding: 1rem;
+    }
+
+    nav a {
+      color: #6d4c41;
+      margin: 0 10px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    nav a.active {
+      border-bottom: 3px solid #6d4c41;
+      color: #6d4c41;
+    }
+
+    .content {
+      padding: 2rem;
+      text-align: center;
+      flex: 1;
+    }
+
+    .content h2 {
+      text-decoration: underline;
+      margin-bottom: 1.5rem;
+    }
+
+    .hours {
+      max-width: 400px;
+      margin: 0 auto;
+      background-color: #fffdfc;
+      border: 1px solid #e0dcd9;
+      border-radius: 8px;
+      padding: 1.5rem;
+      text-align: left;
+      font-size: 1.1rem;
+    }
+
+    .hours ul {
+      list-style: none;
+      padding-left: 0;
+    }
+
+    .hours li {
+      margin-bottom: 1rem;
+      display: flex;
+      justify-content: space-between;
+    }
+
+    .hours strong {
+      color: #6d4c41;
+    }
+
+    footer {
+      background-color: #ddd;
+      text-align: center;
+      padding: 1rem;
+      font-size: 0.9rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Café Sonnenschein</h1>
+    <p>Unsere Öffnungszeiten – Damit Sie wissen, wann’s duftend wird!</p>
+  </header>
+
+  <nav>
+    <a href="index.html">Start</a>
+    <a href="speisekarte.html">Speisekarte</a>
+    <a href="oeffnungszeiten.html" class="active">Öffnungszeiten</a>
+    <a href="kontakt.html">Kontakt</a>
+  </nav>
+
+  <div class="content">
+    <h2>Wann Sie uns besuchen können</h2>
+
+    <div class="hours">
+      <ul>
+        <li><strong>Montag</strong> <span>Geschlossen</span></li>
+        <li><strong>Dienstag – Freitag</strong> <span>08:30 – 17:00</span></li>
+        <li><strong>Samstag</strong> <span>09:00 – 16:00</span></li>
+        <li><strong>Sonntag</strong> <span>09:00 – 15:00</span></li>
+        <li><strong>24. – 26. Dezember & 1. Januar</strong> <span>Geschlossen</span></li>
+      </ul>
+    </div>
+  </div>
+
+  <footer>
+    &copy; 2025 Café Sonnenschein | Alle Rechte vorbehalten
+  </footer>
+</body>
+</html>

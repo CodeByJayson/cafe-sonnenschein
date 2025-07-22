@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Speisekarte – Café Sonnenschein</title>
+  <style>
+    html, body {
+      height: 100%;
+      margin: 0;
+      display: flex;
+      flex-direction: column;
+    }
+
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      background-color: #f4f1ee;
+      color: #333;
+    }
+
+    header {
+      background-color: #6d4c41;
+      color: white;
+      padding: 0.6rem 1rem 1rem 1rem;
+      text-align: center;
+    }
+
+    nav {
+      text-align: center;
+      padding: 1rem;
+    }
+
+    nav a {
+      color: #6d4c41;
+      margin: 0 10px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    nav a.active {
+      border-bottom: 3px solid #6d4c41;
+      color: #6d4c41;
+    }
+
+    .content {
+      padding: 2rem;
+      text-align: center;
+      flex: 1;
+    }
+
+    .content h2 {
+      text-decoration: underline;
+      margin-bottom: 1rem;
+    }
+
+    .menu-section {
+      margin: 2rem auto;
+      max-width: 600px;
+      text-align: left;
+      background-color: #fffdfc;
+      border: 1px solid #e0dcd9;
+      border-radius: 8px;
+      padding: 0.6rem 1.5rem 1rem 1.5rem;
+    }
+
+    .menu-section h3 {
+      color: #6d4c41;
+      margin-bottom: 0.5rem;
+    }
+
+    .menu-section ul {
+      list-style: none;
+      padding-left: 0;
+    }
+
+    .menu-section li {
+      margin-bottom: 0.7rem;
+    }
+
+    .menu-section span {
+      float: right;
+      font-weight: bold;
+    }
+
+    footer {
+      background-color: #ddd;
+      text-align: center;
+      padding: 1rem;
+      font-size: 0.9rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Café Sonnenschein</h1>
+    <p>Unsere Speisekarte – Frisch & Hausgemacht</p>
+  </header>
+
+  <nav>
+    <a href="index.html">Start</a>
+    <a href="speisekarte.html" class="active">Speisekarte</a>
+    <a href="oeffnungszeiten.html">Öffnungszeiten</a>
+    <a href="kontakt.html">Kontakt</a>
+  </nav>
+
+  <div class="content">
+    <h2>Unsere Angebote</h2>
+
+    <div class="menu-section">
+      <h3>☕ Getränke</h3>
+      <ul>
+        <li>Kaffee<span>2,80€</span></li>
+        <li>Cappuccino <span>3,20€</span></li>
+        <li>Latte Macchiato <span>3,50€</span></li>
+        <li>Hausgemachter Eistee <span>3,00€</span></li>
+      </ul>
+    </div>
+
+    <div class="menu-section">
+      <h3>🍰 Kuchen & Gebäck</h3>
+      <ul>
+        <li>Apfel-Streuselkuchen <span>3,90€</span></li>
+        <li>Schokoladentorte <span>4,20€</span></li>
+        <li>Mohn-Zitronenrolle <span>3,50€</span></li>
+        <li>Vegane Zimt-Schnecke <span>2,80€</span></li>
+      </ul>
+    </div>
+
+    <div class="menu-section">
+      <h3>🥪 Frühstück & Snacks</h3>
+      <ul>
+        <li>Frühstücksteller "Sonnenschein" <span>7,90€</span></li>
+        <li>Käsebaguette (warm) <span>4,50€</span></li>
+      </ul>
+    </div>
+  </div>
+
+  <footer>
+    &copy; 2025 Café Sonnenschein | Alle Rechte vorbehalten
+  </footer>
+</body>
+</html>

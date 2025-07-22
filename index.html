@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Café Sonnenschein</title>
+  <style>
+    html, body {
+      height: 100%;
+      margin: 0;
+      display: flex;
+      flex-direction: column;
+    }
+
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      background-color: #f4f1ee;
+      color: #333;
+    }
+
+    header {
+      background-color: #6d4c41;
+      color: white;
+      padding: 0.6rem 1rem 1rem 1rem;
+      text-align: center;
+    }
+
+    nav {
+      text-align: center;
+      padding: 1rem;
+    }
+
+    nav a {
+      color: #6d4c41;
+      margin: 0 10px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    
+    nav a.active {
+        border-bottom: 3px solid #6d4c41;
+        color: #6d4c41; 
+    }
+
+    .image {
+      background-image: url('https://images.unsplash.com/photo-1509042239860-f550ce710b93');
+      background-size: cover;
+      background-position: center;
+      height: 300px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      font-size: 2rem;
+      font-weight: bold;
+      text-shadow: 1px 1px 3px #000;
+    }
+
+    .content {
+      padding: 1rem;
+      text-align: center;
+      flex: 1;
+    }
+
+    .content h2 {
+      text-decoration: underline;
+      margin-top: 1rem;
+    }
+
+    .evaluations {
+        margin-top: 2rem;
+        padding: 1rem;
+        background-color: #fffdfc;
+        border: 1px solid #e0dcd9;
+        border-radius: 8px;
+    }
+
+    .evaluations h3 {
+        text-align: center;
+        color: #6d4c41;
+        margin-bottom: 1rem;
+    }
+
+    .evaluations blockquote {
+        font-style: italic;
+        color: #555;
+        margin: 1rem 0;
+        padding-left: 1rem;
+    }
+
+    footer {
+      background-color: #ddd;
+      text-align: center;
+      padding: 1rem;
+      font-size: 0.9rem;
+      margin-top: 5%;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Café Sonnenschein</h1>
+    <p>Frischer Kaffee. Freundliches Ambiente.</p>
+  </header>
+
+  <nav>
+    <a href="index.html" class="active">Start</a>
+    <a href="speisekarte.html">Speisekarte</a>
+    <a href="oeffnungszeiten.html">Öffnungszeiten</a>
+    <a href="kontakt.html">Kontakt</a>
+  </nav>
+
+  <div class="image">Willkommen auf unserer Website!</div>
+
+  <div class="content">
+    <h2>Über unser Café</h2>
+    <p>Wir servieren liebevoll gebrühten Kaffee, hausgemachte Kuchen und ein Lächeln – mitten in Weimar!</p>
+
+    <div class="evaluations">
+    <h3>Stimmen unserer Gäste</h3>
+    <blockquote>
+        <p>"Ein echter Wohlfühlort! Der Kaffee schmeckt fantastisch und das Personal ist super freundlich."</p> 
+        <p>– <strong>Lisa</strong></p>
+    </blockquote>
+    <blockquote>
+        <p>"Ich liebe die hausgemachten Kuchen! Der perfekte Ort für entspannte Nachmittage."</p>
+        <p>– <strong>David</strong></p>
+        </blockquote>
+    </div>
+  </div>
+
+  <footer>
+    &copy; 2025 Café Sonnenschein | Alle Rechte vorbehalten
+  </footer>
+</body>
+</html>
